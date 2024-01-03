@@ -1,11 +1,11 @@
 #include"contact.h"
 void menu()
 {
-	printf("***********通讯录***********");
-	printf("******1.add      2.del   ***");
-	printf("******3.search   4.modify***");
-	printf("******5.show     6.sort  ***");
-	printf("******0.exit             ***");
+	printf("***********通讯录***********\n");
+	printf("******1.add      2.del   ***\n");
+	printf("******3.search   4.modify***\n");
+	printf("******5.show     6.sort  ***\n");
+	printf("******0.exit             ***\n");
 }
 int main()
 {
@@ -15,8 +15,8 @@ int main()
 	do
 	{
 		menu();
-		printf("请选择：\n");
-		scanf("%d\n", &input);
+		printf("请选择:");
+		scanf("%d", &input);
 		switch (input)
 		{
 		case 1:
